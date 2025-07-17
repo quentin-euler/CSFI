@@ -30,7 +30,7 @@ If you use tif files :
 
 If you use SAFE files :
 - It is important to include the extent you want to cover, otherwise the process of extracting the streets and creating the dataset will be very slow
-- Extent should be a geojson extent (Example : {"type":"Polygon","coordinates":[[[-51.097183,-29.964949],[-51.250076,-29.964949],[-51.250076,-30.09474],[-51.097183,-30.09474],[-51.097183,-29.964949]]]}). Coordinates should be in lat lon
+- Extent should be a geojson extent (Example : {"type":"Polygon","coordinates":[[[-51.097183,-29.964949],[-51.250076,-29.964949],[-51.250076,-30.09474],[-51.097183,-30.09474],[-51.097183,-29.964949]]]}). Coordinates should be in lat lon.
 
 
 
