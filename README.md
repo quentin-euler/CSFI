@@ -1,6 +1,6 @@
 # Custom Street Flood Index (CSFI)
 
-The Custom Street Flood Index model is a new architecture designed to detect flooded streets. It takes optical remote sensing images as an input and outputs predictions for each streets. The repository aims at making this new tool fully acccessible to everybody.
+The Custom Street Flood Index model is a new architecture designed to detect flooded streets. It takes optical remote sensing images as an input and outputs predictions for each street. The repository aims at making this new tool fully acccessible to everybody.
 
 <p align="center">
   <img src="figure.png" alt="Image A"/>
