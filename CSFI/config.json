@@ -1,0 +1,85 @@
+{
+    "name": "CSFIModel",
+    "description": "Predicts floods using a custom index model based on mean band values.",
+    "include_means": {
+        "value": true,
+        "trainable": false,
+        "type": "bool",
+        "log_scale": false,
+        "min": null,
+        "max": null,
+        "categories": null
+    },
+    "substract_means": {
+        "value": true,
+        "trainable": false,
+        "type": "bool",
+        "log_scale": false,
+        "min": null,
+        "max": null,
+        "categories": null
+    },
+    "hardness": {
+        "value": 11.2699073491165,
+        "trainable": true,
+        "type": "float",
+        "log_scale": true,
+        "min": 0.1,
+        "max": 30,
+        "categories": null
+    },
+    "lr": {
+        "value": 0.01762309979993741,
+        "trainable": true,
+        "type": "float",
+        "log_scale": true,
+        "min": 1e-05,
+        "max": 0.1,
+        "categories": null
+    },
+    "batch_size": {
+        "value": 60,
+        "trainable": true,
+        "type": "int",
+        "log_scale": false,
+        "min": 1,
+        "max": 64,
+        "categories": null
+    },
+    "epochs": {
+        "value": 90,
+        "trainable": true,
+        "type": "int",
+        "log_scale": false,
+        "min": 1,
+        "max": 100,
+        "categories": null
+    },
+    "degree": {
+        "value": 2,
+        "trainable": true,
+        "type": "int",
+        "log_scale": false,
+        "min": 1,
+        "max": 2,
+        "categories": null
+    },
+    "hidden_dim": {
+        "value": 108,
+        "trainable": true,
+        "type": "int",
+        "log_scale": false,
+        "min": 8,
+        "max": 128,
+        "categories": null
+    },
+    "layers": {
+        "value": 2,
+        "trainable": true,
+        "type": "int",
+        "log_scale": false,
+        "min": 0,
+        "max": 3,
+        "categories": null
+    }
+}
