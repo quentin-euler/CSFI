@@ -1,5 +1,4 @@
 cache/*
-study_case/* 
 examples/PortoAlegre/*.SAFE
 .venv/*
 
