@@ -23,6 +23,9 @@ Once this is done, you can visualize the results with the notebook src/visualize
 
 Here are some more details about using our model :
 
+To install the required package, simply run : 
+pip install -r requirements.txt
+
 If you use tif files :
 - Reflectance should be between 0 and 1
 - The tif file should have 4 bands : Blue, Green, Red and NIR
