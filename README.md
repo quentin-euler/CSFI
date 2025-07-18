@@ -25,6 +25,7 @@ Here are some more details about using our model :
 
 To install the required package, simply run : 
 pip install -r requirements.txt
+The code was written and tested with python 3.12.10
 
 If you use tif files :
 - Reflectance should be between 0 and 1
