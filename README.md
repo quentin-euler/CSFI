@@ -24,7 +24,7 @@ Once this is done, you can visualize the results with the notebook src/visualize
 Here are some more details about using our model :
 
 To install the required package, simply run : 
-pip install -r requirements.txt
+pip install .
 The code was written and tested with python 3.12.10
 
 If you use tif files :
