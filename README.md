@@ -1,9 +1,7 @@
 # Custom Street Flood Index (CSFI)
 
 **CSFI** is a tool designed to **detect flooded streets** using satellite images.
-It takes two optical remote sensing scenes—**before** and **after** a flood—and outputs a prediction showing which streets are flooded.
-
-Our goal is to make this tool **accessible and easy to use**, even for people who are not remote sensing experts.
+It takes two optical remote sensing scenes (**before** and **during** a flood) and outputs a prediction showing which streets are flooded.
 
 <p align="center">
   <img src="figure.png" alt="Example of CSFI output"/>
