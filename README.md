@@ -23,7 +23,7 @@ Once this is done, you can visualize the results with the notebook src/visualize
 
 Here are some more details about using our model :
 
-To install the package, run `pip install .`
+To install the packages, run `pip install .`
 
 The code was written and tested with python 3.12.10
 

@@ -18,7 +18,7 @@ dependencies = [
     "tqdm==4.67.1",
     "folium==0.19.5",
     "matplotlib==3.9.2",
-    "mapclassify==2.8.1"
+    "mapclassify==2.8.1",
     "ipykernel"
 ]
 
