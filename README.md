@@ -13,7 +13,7 @@ It takes two optical remote sensing scenes (**before** and **during** a flood) a
 
 ### 1. Download the Code
 
-* Clone this repository with Git:
+Clone this repository with Git:
 
   ```bash
   git clone https://github.com/quentin-euler/CSFI.git
@@ -48,6 +48,8 @@ In the main.py file you will need to modify the path to your two images :
 * **A scene *after* the flood** (optical image of the flooded area)
 * **A scene *before* the flood** (preferably from the same month in a different year to reduce seasonal bias)
 
+You can also provide the area of interest (optional) in a geojson format. More details are provided below.
+
 You can use either:
 
 * **TIF files** (recommended if you already pre-processed the data), or
@@ -65,7 +67,7 @@ You can use either:
 
 ### If you use **.SAFE files** (Sentinel-2):
 
-* You **must provide an area of interest (extent)**, otherwise the street extraction can be **very slow**.
+* You will probably have to **provide an area of interest (extent)** in the src/main.py file, otherwise the street extraction can be **very slow**.
 * The extent should be in **GeoJSON** format.
   Example:
 
